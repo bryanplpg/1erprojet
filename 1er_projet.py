@@ -7,7 +7,7 @@ class Utilisateur():
 
     def depot(self):
 
-        depot=int(input("entrez le montant a deposer : "))
+        depot=int(input("entrez le montant a deposer fcfa: "))
         self.portfolio+= depot 
         print(f"votre nouveau solde est {self.portfolio}")
 
